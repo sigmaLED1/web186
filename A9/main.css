@@ -1,0 +1,41 @@
+div{
+    height: 500px;
+    width: 300px;
+    background-image: url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/w/o/WOPA160517_D056-resized.jpg?crop=864%2C0%2C1728%2C2304&wid=600&hei=800&scl=2.88);
+    color: white;
+    opacity: 0.8;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 2%;
+    border-bottom: 2%;
+    flex-direction: column;
+    
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p,a{
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+div:hover a{
+    opacity: 1;
+    position: relative;
+    top: -20px;
+
+}
+div:hover p{
+    opacity: 1;
+    position: relative;
+    top: -20px;
+}
+div:hover h1{
+    opacity: 1;
+    position: relative;
+    top: -20px;
+    transition: 1s;
+
+
+}
